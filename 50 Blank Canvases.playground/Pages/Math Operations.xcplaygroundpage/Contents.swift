@@ -22,9 +22,27 @@ let canvas = Canvas(width: 400, height: 300)
  
  Use whitespace and comments as appropriate.
  */
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
+// Declare coordinates
+let x1 = 300.0
+let x2 = 450.0
+let y1 = 100.0
+let y2 = 500.0
 
 
+
+//Work out distance betwenn points
+
+// Get the difference of x's
+let deltaX = x1 - x2
+
+// Get the difference of the y's
+let deltaY = y1 - y2
+
+// Sum of squares
+let sumOfSquares = pow(deltaX,2) + pow(deltaY, 2)
+
+// Finally evaluate the square root
+let result = sqrt (sumOfSquares)
 
 /*:
  ## Use source control
