@@ -1,5 +1,6 @@
 //: [Previous](@previous) / [Next](@next)
-//: # A Blank Canvas
+//: # Abstraction with Functions
+
 //:
 //: Use this page to experiment. Have fun!
 /*:
