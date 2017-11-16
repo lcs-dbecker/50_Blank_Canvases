@@ -1,5 +1,5 @@
 //: [Previous](@previous) / [Next](@next)
-//: # A Blank Canvas
+//: # Pentagon
 //:
 //: Use this page to experiment. Have fun!
 /*:
@@ -22,7 +22,23 @@ let canvas = Canvas(width: 400, height: 300)
  
  Use whitespace and comments as appropriate.
  */
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
+// Draw pentagon
+
+//Step 1 move to starting point
+canvas.translate(byX: 75, byY: 100)
+canvas.drawAxes()
+canvas.defaultLineWidth = 5
+
+// Use a loop to draw four sides
+for _ in 1...5 { // loops five times to create variable
+    
+    canvas.drawLine(fromX: 0, fromY: 0, toX: 100, toY: 0)
+    canvas.defaultLineWidth = 5
+    canvas.translate(byX: 100, byY: 0)
+    canvas.rotate(by: 72)
+
+    
+}
 
 
 
