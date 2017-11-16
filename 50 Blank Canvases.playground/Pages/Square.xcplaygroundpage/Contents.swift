@@ -27,22 +27,45 @@ let canvas = Canvas(width: 400, height: 300)
 //Step 1 move to starting point
 canvas.translate(byX: 75, byY: 100)
 canvas.drawAxes()
-canvas.defaultLineWidth = 10
 
 // Step 2 Draw a side and rotate
 canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0)
+canvas.defaultLineWidth = 10
 canvas.translate(byX: 200, byY: 0)
-canvas.rotate(by: 120)
+canvas.rotate(by: 90)
 canvas.drawAxes()
 
 // Step 3 Draw a side and rotate
 canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0)
+canvas.defaultLineWidth = 10
 canvas.translate(byX: 200, byY: 0)
-canvas.rotate(by: 120)
+canvas.rotate(by: 90)
 canvas.drawAxes()
 
-//Step 4 Draw a side and rotate
+// Step 4 Draw a side and rotate
 canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0)
+canvas.defaultLineWidth = 10
+canvas.translate(byX: 200, byY: 0)
+canvas.rotate(by: 90)
+canvas.drawAxes()
+
+// Step 5 Draw a side and rotate
+canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0)
+canvas.defaultLineWidth = 10
+canvas.translate(byX: 200, byY: 0)
+canvas.rotate(by: 90)
+canvas.drawAxes()
+
+// Step 6 Draw a side and rotate
+canvas.drawLine(fromX: 0, fromY: 0, toX: 200, toY: 0)
+canvas.defaultLineWidth = 10
+canvas.translate(byX: 200, byY: 0)
+canvas.drawAxes()
+
+
+
+
+
 
 
 /*:
