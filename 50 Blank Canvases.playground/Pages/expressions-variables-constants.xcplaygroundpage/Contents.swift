@@ -22,8 +22,30 @@ let canvas = Canvas(width: 400, height: 300)
  
  Use whitespace and comments as appropriate.
  */
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
+// Decimal Numbers
 
+// Wrong expression
+22 / 7
+
+// Correct Expression
+22.0 / 7.0
+
+//The Remainder Operation
+    // This symbol "%" is used for the remainder operation
+
+28 % 10
+33 % 10
+56 % 8
+
+// Order of Operations
+
+// Correct swift use
+((8000 / (5 * 10)) - 32) >> (29 % 5)
+
+//Constants
+let number: Int = 10
+
+//This declares a constant called number which is of type Int. Then it sets the value of the constant to the number 10.
 
 
 /*:
